@@ -1,0 +1,20 @@
+[
+  ["All Doctors(excluding GPs)", "JSON", "JSON", "JSON"],
+  ["GP's Only", "", "", ""],
+  [
+    "Qualified Nurses, midwives and health visitors (excluding GP Practice Nurses)",
+    "12345",
+    "12345",
+    "12345"
+  ],
+  ["GP Practice Nurses", "", "", ""],
+  [
+    "All other professionally qualified clinical staff",
+    "12345",
+    "12345",
+    "12345"
+  ],
+  ["Support to Clinical Staff", "12345", "12345", "12345"],
+  ["Support to GP staff e.g. students & trainees", "", "", ""],
+  ["Total (Calculated by system)", "12345", "12345", "12345"]
+]

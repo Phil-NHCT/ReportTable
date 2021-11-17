@@ -1,0 +1,67 @@
+.chart {
+  height: 50%;
+  width: 14%;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+#scaleLeft {
+  height: 100%;
+  background-image: url(../images/ChartScaleLeft.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#scaleRight {
+  height: 100%;
+  background-image: url(../images/ChartScaleRight.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#riskBar {
+  background-color: var(--risk);
+}
+#safeBar {
+  background-color: var(--safe);
+}
+
+#risk2Bar {
+  background-color: var(--risk2);
+}
+#subBar {
+  background-color: var(--sub);
+}
+#displayBarChart {
+  min-height: 250px;
+}
+
+.chartKey {
+  color: white;
+  margin: 12px;
+  padding: 4px;
+  font-size: smaller;
+  border-radius: 12px;
+  width: 75%;
+  max-width: 248px;
+  text-align: end;
+}
+.chartKeySafe {
+  background-color: var(--safe);
+}
+.chartKeyRisk {
+  background-color: var(--risk);
+}
+.chartKeySub {
+  background-color: var(--sub);
+}
+.chartKeyRisk2 {
+  background-color: var(--risk2);
+}
+
+.chartSection {
+  /*border: 1px solid black;*/
+  padding-top: 5px;
+  float: left;
+}
